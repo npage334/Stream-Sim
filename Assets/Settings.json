@@ -1,0 +1,5 @@
+{
+  "forwardpicpath": "Assets/Images/bulldozer.png",
+  "backwardpicpath": "Assets/Images/sapling.png",
+  "deathpicpath": "Assets/Images/skull.png"
+}

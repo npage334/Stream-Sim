@@ -1,0 +1,1 @@
+The JSON folder MUST be in the same folder as the executable or equivalent file in order for the program to read it, that is where it looks, So you must copy the JSON between the diffrent OS versions if you are editing it for that purpose. 

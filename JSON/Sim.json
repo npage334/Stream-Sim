@@ -1,0 +1,51 @@
+[
+  {
+    //The name of the step, appears at the top of the top right box
+    "stepname": "Inital simstep",
+
+    //a short description of the step, probobly containing the percentage of imperviousness
+    "stepdesc": "descriptipn",
+
+    //contains the text that appears in the box with the forward and backwards buttons.
+    //Will resize to fit to some degree.
+    "infobox": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id",
+
+    //The path to the picture of the property that appears in the top right box
+    //Reccomended aspect ratio: 1:1, can work fine with a significanly diffrent ratio
+    "propertypicpath": "JSON/Images/property0.png",
+
+    //The path to the background picture that sits behind the whole program
+    //Should be AT LEAST 1920:1080, larger is better(preferably 4k so it doesn't pixelate on large screens)
+    //other aspect ratios are fine, as long as the subject is in the center, if it is off-center it will be covered by UI.
+    //areas outside of the screen are cut off, and the image will be zoomed in to prevent showing white on the borders.
+    "aerialpicpath": "JSON/Images/testback.png",
+
+    //the number that the simulation will check against the fish to see if they should be dead at this step.
+    //Integer.
+    "imperm": 0
+  },
+  {
+    "stepname": "Small footprint",
+    "stepdesc": "7% Impervious",
+    "infobox": "All fish survived this footprint",
+    "propertypicpath": "JSON/Images/property.png",
+    "aerialpicpath": "JSON/Images/testback2.png",
+    "imperm": 7
+  },
+  {
+    "stepname": "Medium footprint",
+    "stepdesc": "10% Impervious",
+    "infobox": "Some Fish survived this footprint",
+    "propertypicpath": "JSON/Images/property2.png",
+    "aerialpicpath": "JSON/Images/testback3.png",
+    "imperm": 10
+  },
+  {
+    "stepname": "Large footprint",
+    "stepdesc": "15% Impervious",
+    "infobox": "No Fish survived this footprint",
+    "propertypicpath": "JSON/Images/property3.png",
+    "aerialpicpath": "JSON/Images/testback4.png",
+    "imperm": 15
+  }
+]

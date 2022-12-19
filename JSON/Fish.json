@@ -1,0 +1,157 @@
+//The program only supports up to 19 fish, any less will show empty boxes but should otherwise work fine
+//less than 19 fish will leave ugly white boxes and cause errors.
+//More fish than 19 will likely also cause errors and those extra fish would never appear.
+[
+  {
+    //Sets the fish name
+    "fishname": "Iowa darter",
+
+    //Sets the fish description
+    //Descriptions do not ever appear for any fish aside from the main fish
+    "fishdesc": "test",
+
+    //Sets the path to the fish image
+    //Should accept a wide varety of file formats, but if your weird format doesnt work just use PNG.
+    //Place the images in the same folder as the two example images and replace the file name in the address with the new file name
+    //
+    // like this - "fishpath":"JSON/Images/Fish/Mynewfishpicture.png"
+    //
+    //Fish images should have an aspect ratio of 1:1, but the program can handle it if it is a little out of shape
+    //There is also no limit to how large the image is, more pixels are better.
+    //This is also a proper relative file path, so you can go forwards and backwards in the directory.
+    "fishpath": "JSON/Images/Fish/redfish.png",
+
+    //Determines the threshold at which fish should die
+    "impermthreshold": 8,
+
+    //Determines if the fish is one of the 6 selectable fish on the starting screen
+    //You should not have any more or less than 6 main fish.
+    "major": true
+  },
+  {
+    "fishname": "Black crappie",
+    "fishdesc": "",
+    "fishpath": "JSON/Images/Fish/bluefish.png",
+    "impermthreshold": 8,
+    "major": true
+  },
+  {
+    "fishname": "channel catfish",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 8,
+    "major": false
+  },
+  {
+    "fishname": "Yellow perch",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 8,
+    "major": false
+  },
+  {
+    "fishname": "Rock bass",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 8,
+    "major": false
+  },
+  {
+    "fishname": "Horneyhard chub",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 8,
+    "major": false
+  },
+  {
+    "fishname": "Sand shiner",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 8,
+    "major": false
+  },
+  {
+    "fishname": "Southern redbelly dace",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 8,
+    "major": false
+  },
+  {
+    "fishname": "Golden shiner",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 10,
+    "major": false
+  },
+  {
+    "fishname": "Northern pike",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 10,
+    "major": true
+  },
+  {
+    "fishname": "Largemouth bass",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 10,
+    "major": true
+  },
+  {
+    "fishname": "Bluntnose minnow",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 10,
+    "major": false
+  },
+  {
+    "fishname": "Johhny darter",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 10,
+    "major": true
+  },
+  {
+    "fishname": "Common shiner",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 10,
+    "major": false
+  },
+  {
+    "fishname": "Creek chub",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 12,
+    "major": false
+  },
+  {
+    "fishname": "Fathead minnow",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 12,
+    "major": false
+  },
+  {
+    "fishname": "Green sunfish",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 12,
+    "major": false
+  },
+  {
+    "fishname": "White sucker",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 12,
+    "major": false
+  },
+  {
+    "fishname": "Brook stickeback",
+    "fishdesc": "",
+    "fishpath": null,
+    "impermthreshold": 12,
+    "major": true
+  }
+]

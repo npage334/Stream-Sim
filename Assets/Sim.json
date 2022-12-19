@@ -1,0 +1,34 @@
+[
+  {
+    "stepname": "Inital simstep",
+    "stepdesc": "descriptipn",
+    "infobox": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id",
+    "propertypicpath": "Assets/Images/property0.png",
+    "aerialpicpath": "Assets/Images/testback.png",
+    "imperm": 0
+  },
+  {
+    "stepname": "Small footprint",
+    "stepdesc": "7% Impervious",
+    "infobox": "All fish survived this footprint",
+    "propertypicpath": "Assets/Images/property.png",
+    "aerialpicpath": "Assets/Images/testback2.png",
+    "imperm": 7
+  },
+  {
+    "stepname": "Medium footprint",
+    "stepdesc": "10% Impervious",
+    "infobox": "Some Fish survived this footprint",
+    "propertypicpath": "Assets/Images/property2.png",
+    "aerialpicpath": "Assets/Images/testback3.png",
+    "imperm": 10
+  },
+  {
+    "stepname": "Large footprint",
+    "stepdesc": "15% Impervious",
+    "infobox": "No Fish survived this footprint",
+    "propertypicpath": "Assets/Images/property3.png",
+    "aerialpicpath": "Assets/Images/testback4.png",
+    "imperm": 15
+  }
+]
